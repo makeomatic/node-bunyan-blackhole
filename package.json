@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/Floby/node-bunyan-blackhole/issues"
   },
-  "homepage": "https://github.com/Floby/node-bunyan-blackhole"
+  "homepage": "https://github.com/Floby/node-bunyan-blackhole",
+  "dependencies": {
+    "stream-blackhole": "^1.0.3"
+  },
+  "peerDependencies": {
+    "bunyan": "~1.3.4"
+  }
 }
