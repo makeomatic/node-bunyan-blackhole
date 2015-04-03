@@ -1,9 +1,8 @@
-[![Build Status][travis-image]][travis-url] [![Coverage][coveralls-image]][coveralls-url]
 
 node-bunyan-blackhole
 ==================
 
-> A caching module for streams
+> Create a fully functional bunyan logger but doesn't output anything anywhere
 
 Installation
 ------------
