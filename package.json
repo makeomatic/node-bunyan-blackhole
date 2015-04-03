@@ -1,6 +1,6 @@
 {
   "name": "bunyan-blackhole",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a fully functional bunyan logger but doesn't output anything anywhere",
   "main": "index.js",
   "scripts": {
