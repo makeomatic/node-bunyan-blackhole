@@ -25,9 +25,7 @@
   },
   "homepage": "https://github.com/Floby/node-bunyan-blackhole",
   "dependencies": {
+    "bunyan": "~1.3.4",
     "stream-blackhole": "^1.0.3"
   },
-  "peerDependencies": {
-    "bunyan": "~1.3.4"
-  }
 }
