@@ -1,11 +1,11 @@
-var bunyan = require('bunyan');
-var blackhole = require('stream-blackhole');
+const bunyan = require('bunyan');
+const blackhole = require('stream-blackhole');
 
-module.exports = function (name) {
-  name = name || '/dev/null';
+module.exports = function createNoopLogger(_name) {
+  const name = _name || '/dev/null';
 
   return bunyan.createLogger({
-    name: name,
-    stream: blackhole()
-  })
+    name,
+    stream: blackhole(),
+  });
 };
